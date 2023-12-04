@@ -33,6 +33,8 @@ def main():
         print("Input your command")
         cmd = str(input())
         match cmd:
+            case "h":
+                help()
             case "s":
                 print("Input similar word")
                 arg = input()
